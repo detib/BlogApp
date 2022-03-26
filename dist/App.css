@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #00081e;
+  color: #fff;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track,
+body .side-bar::-webkit-scrollbar-track {
+  background: #e3eaff;
+}
+
+body::-webkit-scrollbar-thumb,
+body .side-bar::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5784ffb3), color-stop(#5784ff), to(#5784ffb3));
+  background: linear-gradient(to bottom, #5784ffb3, #5784ff, #5784ffb3);
+  border-radius: 2px;
+}
+/*# sourceMappingURL=App.css.map */

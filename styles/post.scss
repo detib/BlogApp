@@ -1,0 +1,23 @@
+.post-wrapper {
+  padding-top: 155px;
+  .post-container {
+    margin: 0 auto;
+    width: 1000px !important;
+    max-width: 90%;
+    .post-body {
+      .edit-post {
+        align-self: flex-start;
+        display: flex;
+        gap: 15px;
+        .delete-post {
+            background: rgb(155, 0, 0);
+        }
+      }
+    }
+    .last-edit {
+        p {
+            color: rgb(155, 155, 155);
+        }
+    }
+  }
+}

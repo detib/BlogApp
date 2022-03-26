@@ -1,0 +1,41 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1em 8em;
+  display: flex;
+  align-items: center;
+  background: #040c21;
+  .nav-title-icon {
+    .icon-container {
+      width: 45px;
+      height: 45px;
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+    }
+    a {
+      font-size: 2em;
+      color: #ffffff;
+      font-weight: 700;
+    }
+  }
+  .nav-auth {
+    .auth-link-container {
+      padding: 0.5em 2.5em;
+      border-radius: 5px;
+      background: rgb(35, 35, 148);
+      transition: 0.3s;
+      cursor: pointer;
+      a {
+        color: #fff;
+      }
+      &:hover {
+        background: rgb(80, 80, 148);
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.addpost-box {
+  position: fixed;
+  top: 255px;
+  left: 50px;
+  a {
+    padding: 1em 2em;
+    border-radius: 5px;
+    background-color: #5784ff;
+    color: #fff;
+    border: 1px dashed #fff;
+    outline: 2px solid #fff;
+    outline-offset: -1px;
+    transition: 0.3s;
+    &:hover {
+      outline-offset: -5px;
+    }
+  }
+}

@@ -1,0 +1,133 @@
+.inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.spread {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.center-item {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 15px;
+}
+
+.shared-title p {
+  color: var(--main-color);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.shared-title h6 {
+  font-size: 30px;
+  color: var(--dark-text);
+}
+
+@media (max-width: 500px) {
+  .shared-title p {
+    font-size: 14px;
+  }
+  .shared-title h6 {
+    font-size: 23px;
+  }
+}
+
+.shared-basic-title {
+  font-size: 35px;
+  color: var(--dark-text);
+  line-height: 2;
+}
+
+@media (max-width: 500px) {
+  .shared-basic-title {
+    font-size: 25px;
+  }
+}
+
+.shared-basic-small-title {
+  font-size: 23px;
+  color: var(--dark-text);
+  line-height: 2;
+}
+
+@media (max-width: 500px) {
+  .shared-basic-small-title {
+    font-size: 18px;
+  }
+}
+
+.shared-paragraph {
+  color: var(--dark-text);
+  font-size: 16px;
+  line-height: 2;
+}
+
+@media (max-width: 625px) {
+  .shared-paragraph {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .shared-paragraph {
+    font-size: 13px;
+  }
+}
+
+.shared-input-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.shared-input-field svg {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.shared-input-field select,
+.shared-input-field select:focus {
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0);
+  color: var(--dark-text);
+}
+
+.shared-input-field select option,
+.shared-input-field select:focus option {
+  color: #00081e;
+}
+
+.shared-input-field input,
+.shared-input-field input:focus {
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0);
+}
+/*# sourceMappingURL=shared.css.map */

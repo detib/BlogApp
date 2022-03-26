@@ -1,0 +1,27 @@
+.post-wrapper {
+  padding-top: 155px;
+}
+
+.post-wrapper .post-container {
+  margin: 0 auto;
+  width: 1000px !important;
+  max-width: 90%;
+}
+
+.post-wrapper .post-container .post-body .edit-post {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.post-wrapper .post-container .post-body .edit-post .delete-post {
+  background: #9b0000;
+}
+
+.post-wrapper .post-container .last-edit p {
+  color: #9b9b9b;
+}
+/*# sourceMappingURL=post.css.map */

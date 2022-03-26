@@ -1,0 +1,129 @@
+.add-post-container {
+  width: 700px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+}
+
+.add-post-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 0 15px 0 #5784ff80;
+          box-shadow: 0 0 15px 0 #5784ff80;
+  padding: 2em;
+}
+
+.add-post-container form .input-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.add-post-container form .input-field input {
+  font-size: 1.5em;
+}
+
+.add-post-container form .input-field textarea {
+  font-size: 1.25em;
+}
+
+.add-post-container form .input-field input,
+.add-post-container form .input-field textarea {
+  resize: vertical;
+  background-color: #040c21;
+  border: 1px solid #1c59ff;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px;
+}
+
+.add-post-container form .error-box {
+  padding: 1em;
+  border-radius: 10px;
+  background: #9b0000;
+  color: #fff;
+  -webkit-animation: shake 0.75s linear forwards;
+          animation: shake 0.75s linear forwards;
+}
+
+.add-post-container form .submit-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 1em 0;
+  border-radius: 5px;
+  background: #5784ff;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.add-post-container form .submit-button:hover {
+  background: #1c59ff;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  25% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  50% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  75% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  25% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  50% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  75% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+/*# sourceMappingURL=newpost.css.map */

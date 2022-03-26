@@ -1,0 +1,47 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1em 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #040c21;
+}
+
+.navbar .nav-title-icon .icon-container {
+  width: 45px;
+  height: 45px;
+}
+
+.navbar .nav-title-icon .icon-container svg path {
+  fill: #fff;
+}
+
+.navbar .nav-title-icon a {
+  font-size: 2em;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.navbar .nav-auth .auth-link-container {
+  padding: 0.5em 2.5em;
+  border-radius: 5px;
+  background: #232394;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.navbar .nav-auth .auth-link-container a {
+  color: #fff;
+}
+
+.navbar .nav-auth .auth-link-container:hover {
+  background: #505094;
+}
+/*# sourceMappingURL=navbar.css.map */
