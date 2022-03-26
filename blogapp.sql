@@ -7,6 +7,12 @@
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.0
 
+drop if exists database blogapp;
+
+create database blogapp;
+
+use blogapp;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
