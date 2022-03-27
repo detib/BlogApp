@@ -7,7 +7,7 @@
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.0
 
-drop if exists database blogapp;
+drop database if exists blogapp;
 
 create database blogapp;
 
